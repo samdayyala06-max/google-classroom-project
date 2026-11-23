@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudySpace — Classroom</title>
+    <link rel="stylesheet" href="samp_pro.css">
+</head>
+<body id="top">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <a href="#top" class="brand-box">
+            <span class="brand-mark">SS</span>
+            <div>
+                <h2>StudySpace</h2>
+                <p>Class Hub</p>
+            </div>
+        </a>
+
+        <nav class="side-menu">
+            <a href="#top" class="menu-link">
+                <span class="menu-tag">01</span>
+                <span>Overview</span>
+            </a>
+            <a href="#my-classes" class="menu-link">
+                <span class="menu-tag">02</span>
+                <span>My Classes</span>
+            </a>
+            <a href="#due-soon" class="menu-link">
+                <span class="menu-tag">03</span>
+                <span>Deadlines</span>
+            </a>
+            <a href="#recent-activity" class="menu-link">
+                <span class="menu-tag">04</span>
+                <span>Activity Log</span>
+            </a>
+        </nav>
+
+        <div class="side-group">
+            <p class="side-label">ENROLLED COURSES</p>
+            <a href="#class-web" class="course-shortcut">
+                <span class="dot dot-indigo"></span>
+                <span>Web Design</span>
+            </a>
+            <a href="#class-db" class="course-shortcut">
+                <span class="dot dot-emerald"></span>
+                <span>Database Systems</span>
+            </a>
+            <a href="#class-py" class="course-shortcut">
+                <span class="dot dot-amber"></span>
+                <span>Python</span>
+            </a>
+            <a href="#class-ml" class="course-shortcut">
+                <span class="dot dot-rose"></span>
+                <span>Machine Learning</span>
+            </a>
+            <a href="#class-dsa" class="course-shortcut">
+                <span class="dot dot-sky"></span>
+                <span>Data Structures</span>
+            </a>
+        </div>
+
+        <div class="side-footer-links">
+            <a href="#footer-bar" class="menu-link">
+                <span class="menu-tag">?</span>
+                <span>Help &amp; Info</span>
+            </a>
+        </div>
+    </aside>
+
+    <!-- MAIN WORKSPACE -->
+    <main class="workspace">
+
+        <!-- TOP BAR -->
+        <header class="topbar">
+            <div class="topbar-left">
+                <div>
+                    <h1>My Classroom</h1>
+                    <p>Track lectures, labs, and upcoming submissions in one place.</p>
+                </div>
+            </div>
+
+            <div class="topbar-right">
+                <a href="#due-soon" class="pill-alert">4 Due Soon</a>
+                <div class="student-chip">
+                    <span class="student-avatar">HS</span>
+                    <div class="student-meta">
+                        <strong>Student</strong>
+                        <span>B.Tech • Sem 5</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- HERO + SPOTLIGHT ROW -->
+        <section class="hero-row">
+            <div class="hero-banner">
+                <span class="hero-kicker">SEMESTER STUDIO</span>
+                <h2>Pick up right where you left off.</h2>
+                <p>
+                    Jump into your active courses, check lab deadlines, and keep your
+                    weekly coursework moving without hunting through threads.
+                </p>
+            </div>
+
+            <div class="spotlight-card">
+                <span class="spotlight-tag">UP NEXT</span>
+                <h3>CSS Responsive Layout</h3>
+                <p class="spotlight-course">Web Design • Alex Johnson</p>
+                <p class="spotlight-time">Due Tomorrow • 11:59 PM</p>
+                <a href="#due-soon" class="spotlight-link">Open Deadline List →</a>
+            </div>
+        </section>
+
+        <!-- STATS STRIP -->
+        <section id="stats-section" class="stats-row">
+            <div class="stat-box">
+                <span class="stat-num">05</span>
+                <div>
+                    <p>Active Classes</p>
+                    <span>All synced</span>
+                </div>
+            </div>
+            <div class="stat-box">
+                <span class="stat-num">18</span>
+                <div>
+                    <p>Tasks Done</p>
+                    <span>This term</span>
+                </div>
+            </div>
+            <div class="stat-box">
+                <span class="stat-num">04</span>
+                <div>
+                    <p>Pending Work</p>
+                    <span>1 urgent</span>
+                </div>
+            </div>
+            <div class="stat-box">
+                <span class="stat-num">87%</span>
+                <div>
+                    <p>Current Score</p>
+                    <span>Steady pace</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- MAIN GRID: COURSES + SIDE PANELS -->
+        <section class="content-grid">
+
+            <!-- COURSES COLUMN -->
+            <div id="my-classes">
+                <div class="block-header">
+                    <div>
+                        <span class="block-kicker">COURSES</span>
+                        <h2>Active Classes</h2>
+                    </div>
+                    <a href="#top" class="top-jump">Back to top ↑</a>
+                </div>
+
+                <div class="cards-grid">
+
+                    <!-- WEB DESIGN -->
+                    <article id="class-web" class="class-card">
+                        <div class="card-cover" style="background-image: linear-gradient(180deg, rgba(30, 41, 59, 0.25), rgba(30, 41, 59, 0.78)), url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80');">
+                            <span class="code-badge">CS-301</span>
+                            <button type="button" class="more-dots">...</button>
+                        </div>
+                        <div class="card-body">
+                            <span class="topic-label">FRONTEND</span>
+                            <h3>Responsive Web Design</h3>
+                            <p class="prof-name">Alex Johnson</p>
+
+                            <div class="meter-wrap">
+                                <div class="meter-top">
+                                    <span>Completion</span>
+                                    <strong>75%</strong>
+                                </div>
+                                <div class="meter-track">
+                                    <div class="meter-fill bar-75 fill-indigo"></div>
+                                </div>
+                            </div>
+
+                            <div class="card-foot">
+                                <span>12 Modules</span>
+                                <a href="#due-soon">Go to tasks →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- DATABASE SYSTEMS -->
+                    <article id="class-db" class="class-card">
+                        <div class="card-cover" style="background-image: linear-gradient(180deg, rgba(30, 41, 59, 0.25), rgba(30, 41, 59, 0.78)), url('https://images.unsplash.com/photo-1544383835-bda2bc66a55d?auto=format&fit=crop&w=600&q=80');">
+                            <span class="code-badge">CS-304</span>
+                            <button type="button" class="more-dots">...</button>
+                        </div>
+                        <div class="card-body">
+                            <span class="topic-label">DATA &amp; SQL</span>
+                            <h3>Database Management</h3>
+                            <p class="prof-name">Sarah Miller</p>
+
+                            <div class="meter-wrap">
+                                <div class="meter-top">
+                                    <span>Completion</span>
+                                    <strong>62%</strong>
+                                </div>
+                                <div class="meter-track">
+                                    <div class="meter-fill bar-62 fill-emerald"></div>
+                                </div>
+                            </div>
+
+                            <div class="card-foot">
+                                <span>16 Modules</span>
+                                <a href="#due-soon">Go to tasks →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- PYTHON -->
+                    <article id="class-py" class="class-card">
+                        <div class="card-cover" style="background-image: linear-gradient(180deg, rgba(30, 41, 59, 0.25), rgba(30, 41, 59, 0.78)), url('https://images.unsplash.com/photo-1526379095098-d400fd0bf935?auto=format&fit=crop&w=600&q=80');">
+                            <span class="code-badge">CS-210</span>
+                            <button type="button" class="more-dots">...</button>
+                        </div>
+                        <div class="card-body">
+                            <span class="topic-label">PROGRAMMING</span>
+                            <h3>Python Programming</h3>
+                            <p class="prof-name">Daniel Lee</p>
+
+                            <div class="meter-wrap">
+                                <div class="meter-top">
+                                    <span>Completion</span>
+                                    <strong>88%</strong>
+                                </div>
+                                <div class="meter-track">
+                                    <div class="meter-fill bar-88 fill-amber"></div>
+                                </div>
+                            </div>
+
+                            <div class="card-foot">
+                                <span>20 Modules</span>
+                                <a href="#due-soon">Go to tasks →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- MACHINE LEARNING -->
+                    <article id="class-ml" class="class-card">
+                        <div class="card-cover" style="background-image: linear-gradient(180deg, rgba(30, 41, 59, 0.25), rgba(30, 41, 59, 0.78)), url('https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=600&q=80');">
+                            <span class="code-badge">AI-402</span>
+                            <button type="button" class="more-dots">...</button>
+                        </div>
+                        <div class="card-body">
+                            <span class="topic-label">INTELLIGENCE</span>
+                            <h3>Machine Learning</h3>
+                            <p class="prof-name">James Wilson</p>
+
+                            <div class="meter-wrap">
+                                <div class="meter-top">
+                                    <span>Completion</span>
+                                    <strong>45%</strong>
+                                </div>
+                                <div class="meter-track">
+                                    <div class="meter-fill bar-45 fill-rose"></div>
+                                </div>
+                            </div>
+
+                            <div class="card-foot">
+                                <span>24 Modules</span>
+                                <a href="#due-soon">Go to tasks →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- DATA STRUCTURES -->
+                    <article id="class-dsa" class="class-card">
+                        <div class="card-cover" style="background-image: linear-gradient(180deg, rgba(30, 41, 59, 0.25), rgba(30, 41, 59, 0.78)), url('https://images.unsplash.com/photo-1516116216624-53e697fedbea?auto=format&fit=crop&w=600&q=80');">
+                            <span class="code-badge">CS-205</span>
+                            <button type="button" class="more-dots">...</button>
+                        </div>
+                        <div class="card-body">
+                            <span class="topic-label">ALGORITHMS</span>
+                            <h3>Data Structures</h3>
+                            <p class="prof-name">Priya Nair</p>
+
+                            <div class="meter-wrap">
+                                <div class="meter-top">
+                                    <span>Completion</span>
+                                    <strong>70%</strong>
+                                </div>
+                                <div class="meter-track">
+                                    <div class="meter-fill bar-70 fill-sky"></div>
+                                </div>
+                            </div>
+
+                            <div class="card-foot">
+                                <span>18 Modules</span>
+                                <a href="#due-soon">Go to tasks →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+
+            <!-- SIDE COLUMN: DEADLINES + ACTIVITY -->
+            <div class="side-column">
+
+                <div id="due-soon" class="side-panel">
+                    <div class="panel-head">
+                        <div>
+                            <span class="block-kicker">SCHEDULE</span>
+                            <h2>Due Soon</h2>
+                        </div>
+                        <span class="badge-count">4</span>
+                    </div>
+
+                    <div class="due-row">
+                        <div class="date-box due-red">
+                            <strong>20</strong>
+                            <span>NOV</span>
+                        </div>
+                        <div>
+                            <h3>CSS Responsive Layout</h3>
+                            <p>Web Design</p>
+                            <span class="due-hot">Due tomorrow</span>
+                        </div>
+                    </div>
+
+                    <div class="due-row">
+                        <div class="date-box due-green">
+                            <strong>22</strong>
+                            <span>NOV</span>
+                        </div>
+                        <div>
+                            <h3>SQL Query Practice</h3>
+                            <p>Database Systems</p>
+                            <span>2 days left</span>
+                        </div>
+                    </div>
+
+                    <div class="due-row">
+                        <div class="date-box due-amber">
+                            <strong>25</strong>
+                            <span>NOV</span>
+                        </div>
+                        <div>
+                            <h3>Python Mini Project</h3>
+                            <p>Python Programming</p>
+                            <span>5 days left</span>
+                        </div>
+                    </div>
+
+                    <a href="#recent-activity" class="panel-link">See recent updates →</a>
+                </div>
+
+                <div id="recent-activity" class="side-panel">
+                    <div class="panel-head">
+                        <div>
+                            <span class="block-kicker">STREAM</span>
+                            <h2>Recent Activity</h2>
+                        </div>
+                    </div>
+
+                    <div class="feed-row">
+                        <span class="feed-tag tag-ok">DONE</span>
+                        <div>
+                            <h3>Flexbox Lab Uploaded</h3>
+                            <p>Web Design</p>
+                            <span>2 hours ago</span>
+                        </div>
+                    </div>
+
+                    <div class="feed-row">
+                        <span class="feed-tag tag-star">92%</span>
+                        <div>
+                            <h3>Quiz Graded</h3>
+                            <p>Python Programming</p>
+                            <span>Yesterday</span>
+                        </div>
+                    </div>
+
+                    <div class="feed-row">
+                        <span class="feed-tag tag-note">NOTE</span>
+                        <div>
+                            <h3>Lab Room Changed</h3>
+                            <p>Database Systems</p>
+                            <span>2 days ago</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer id="footer-bar" class="page-footer">
+            <p>StudySpace • Student Classroom View</p>
+            <div class="footer-links">
+                <a href="#top">Overview</a>
+                <a href="#my-classes">Classes</a>
+                <a href="#due-soon">Deadlines</a>
+            </div>
+        </footer>
+
+    </main>
+
+</body>
+</html>
